@@ -7,9 +7,11 @@ The entry point to get to development is:
 
 - **development tools** document: [engineering-sketches/development-tools](https://github.com/Mouse-Unit-07/engineering-sketches/blob/main/development-tools/development-tools.md)
 
+- **engineering sketch** for your development effort: [engineering-sketches](https://github.com/Mouse-Unit-07/engineering-sketches/tree/main)
+
 After reading the above, you'll have a grasp of the entire workbench.
 
-## External Engineering Part Links
+## External Links
 Everything is to be under this GitHub organization if possible, but Jenkins, JFrog Artifactory are external:
 - Jenkins: [link here, not made yet]
 - JFrog Artifactory: [link here, not made yet]
