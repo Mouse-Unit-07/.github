@@ -19,6 +19,10 @@ Everything is to be under this GitHub organization if possible, but ther are ext
 - JFrog Artifactory
   - [link here, not made yet]
 
+- Fusion 360
+  - 3D model and schematic/PCB development
+  - private due to license requirement
+
 - Discord
   - all threads that don't need to be tracked
   - private
