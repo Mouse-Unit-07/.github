@@ -12,6 +12,18 @@ The entry point to get to development is:
 After reading the above, you'll have a grasp of the entire workbench.
 
 ## External Links
-Everything is to be under this GitHub organization if possible, but Jenkins, JFrog Artifactory are external:
-- Jenkins: [link here, not made yet]
-- JFrog Artifactory: [link here, not made yet]
+Everything is to be under this GitHub organization if possible, but ther are external items:
+- Jenkins
+  - [link here, not made yet]
+
+- JFrog Artifactory
+  - [link here, not made yet]
+
+- Discord
+  - all threads that don't need to be tracked
+  - private
+
+- YouTube
+  - www.youtube.com/@MouseUnit07
+  - storage for all videos, due to GitHub storage limitation 
+  - private/unlisted, unless there're videos to share w/ the universe
