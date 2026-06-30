@@ -2,50 +2,60 @@
 
 All Mouse Unit 07 development related repos, files, etc live here!
 
-## Repositories
+## `sketches`
 
-- `sketches`
-  - Just for brainstorming and rough reference (not strict documentation)
-    - As per *UML Distilled*, the idea is that work should document itself
-  - Software architecture sketch
-    - Dependency diagram of all software repos and parts
-  - Development tools sketch
-    - Dependency/deployment diagram of all tools and platforms in use
-- `hardware-` repos
-  - `hardware-motherboard`
-    - Design explanation for micromouse motherboard
-    - PDF's for schematics, layouts, mechanical drawings
-  - `hardware-uart-bridge`
-    - Sparkfun Bluetooth UART bridge module documentation 
-- `software-` repos
-  - Layers that make up the micromouse firmware include:
-    - `software-application`
-    - `software-maze-solver`
-    - `software-mouse-driver`
-    - `software-device-drivers`
-    - `software-hardware-abstraction-layer`
-    - `software-at32uc3l0256-drivers`
-    - `software-runtime-diagnostics`
-    - Where `software-application` is the topmost layer, and `software-at32uc3l0256-drivers` is the lowest
-  - `software-development-environment`
-    - Uniform software development environment to build all software projects w/ CMake
-    - Exists as a Docker container substitute, w/ a Python script to invoke builds in place of a CI pipeline
-  - `software-mouse-simulator`
-    - A C++ project to simulate micromouse hardware (`software-device-drivers`) to find the optimal feedback control constants and navigation algorithms to implement in `software-mouse-driver`
-- `mechanical-` repos
-  - `mechanical-3d-parts`
-    - Storage for 3D models made w/ Fusion 360
-    - Migrated out of hardware repo to reduce clutter in hardware repos
-- `experiment-` repos
-  - Experiments that are worth documenting, software/hardware or anything else
-  - `experiment-software-hello-world`
-    - A simple project to reference as a software repo compatible w/ `software-development-environment`
-  - `experiment-software-repeat-hello-world`
-    - Same concept as `experiment-software-hello-world`, except this project has a dependency
-  - `experiment-software-repeat-hello-world-cpp`
-    - Same as `experiment-software-repeat-hello-world`, but in C++
-  - `experiment-software-build-environment`
-    - What led to the final uniform build environment repo to act as a Docker container substitute
+- Just for brainstorming and light reference (not strict documentation)
+  - As per *UML Distilled*, the idea is that work should document itself
+- Software architecture sketch
+  - Dependency diagram of all software repos and parts
+- Development tools sketch
+  - Dependency/deployment diagram of all tools and platforms in use
+
+## `hardware-`
+
+- `hardware-motherboard`
+  - Design explanation for micromouse motherboard
+  - PDF's for schematics, layouts, mechanical drawings
+- `hardware-uart-bridge`
+  - Sparkfun Bluetooth UART bridge module documentation
+
+## `software-`
+
+- Layers that make up the micromouse firmware include:
+  - `software-application`
+  - `software-maze-solver`
+  - `software-mouse-driver`
+  - `software-device-drivers`
+  - `software-hardware-abstraction-layer`
+  - `software-at32uc3l0256-drivers`
+  - `software-runtime-diagnostics`
+  - Where `software-application` is the topmost layer, and `software-at32uc3l0256-drivers` is the lowest
+- `software-development-environment`
+  - Uniform software development environment to build all software projects w/ CMake
+  - Exists as a Docker container substitute, w/ a Python script to invoke builds in place of a CI pipeline
+- `software-mouse-simulator`
+  - A C++ project to simulate micromouse hardware (`software-device-drivers`) to find the optimal feedback control constants and navigation algorithms to implement in `software-mouse-driver`
+
+## `mechanical-`
+
+- `mechanical-3d-parts`
+  - Storage for 3D models made w/ Fusion 360
+  - Migrated out of hardware repo to reduce clutter in hardware repos
+
+## `experiment-`
+
+- Experiments that are worth documenting, software/hardware or anything else
+- `experiment-software-hello-world`
+  - A simple project to reference as a software repo compatible w/ `software-development-environment`
+- `experiment-software-repeat-hello-world`
+  - Same concept as `experiment-software-hello-world`, except this project has a dependency
+- `experiment-software-repeat-hello-world-cpp`
+  - Same as `experiment-software-repeat-hello-world`, but in C++
+- `experiment-software-build-environment`
+  - What led to the final uniform build environment repo to act as a Docker container substitute
+
+## Supplement
+
 - `fundamental-engineering-notes`
   - Ryuichi's engineering notes from books, school, and work
 - `team-guides`
